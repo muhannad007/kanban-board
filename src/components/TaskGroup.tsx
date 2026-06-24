@@ -63,7 +63,7 @@ const TaskGroup: React.FC<propTypes> = ({ form, colTitle }) => {
         className="border-dashed border-blue-300 border-2 rounded-lg mt-3 mb-3 h-0 opacity-0 w-full"
       ></div>
       <Task
-        handleLeave={handleLeave}
+        // handleLeave={handleLeave}
         zone={zone.current!}
         task={{ title: "Title", description: "description" }}
       />

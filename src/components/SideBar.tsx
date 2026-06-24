@@ -40,7 +40,7 @@ const SideBar = ({ children, expanded, setExpanded }: any) => {
                 className="bg-white h-6 w-6 outline-hidden full-round"
               >
                 {expanded ? (
-                  <ChevronLeftIcon className="h-3 w-3" />
+                  <ChevronLeftIcon className="h-3" />
                 ) : (
                   <ChevronRightIcon className="h-3 w-3" />
                 )}
